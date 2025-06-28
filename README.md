@@ -6,8 +6,7 @@ Smart recommendation system that helps developers choose the best AI coding assi
 
 ### Clone Repository
 ```bash
-git clone <your-repo-url>
-cd ai-coding-agent-recommender
+git clone https://github.com/shubham587/agent-recommendation.git
 ```
 
 ### Backend Setup
