@@ -1,0 +1,248 @@
+{
+  "agents": [
+    {
+      "id": "github_copilot",
+      "name": "GitHub Copilot",
+      "description": "AI pair programmer that helps you write code faster",
+      "capabilities": [
+        "Code completion",
+        "Function generation",
+        "Documentation writing",
+        "Test generation",
+        "Code explanation",
+        "Refactoring suggestions"
+      ],
+      "strengths": [
+        "Excellent code completion",
+        "Wide language support",
+        "Context-aware suggestions",
+        "IDE integration",
+        "Large training dataset"
+      ],
+      "supported_languages": [
+        "Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "Go", "Rust", "PHP", "Ruby", "Kotlin", "Swift"
+      ],
+      "use_cases": [
+        "General programming",
+        "Code completion",
+        "Learning new languages",
+        "Productivity boost"
+      ],
+      "system_prompt": "I'm GitHub Copilot, your AI pair programmer. I excel at generating code completions, writing functions, and helping with various programming tasks across multiple languages.",
+      "ideal_for": ["beginners", "experienced_developers", "productivity"],
+      "collaboration": false,
+      "deployment": false,
+      "learning_curve": "low",
+      "price_tier": "paid"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "description": "AI-first code editor built for pair-programming with AI",
+      "capabilities": [
+        "Codebase understanding",
+        "Multi-file editing",
+        "Chat with codebase",
+        "Code generation",
+        "Debugging assistance",
+        "Code review"
+      ],
+      "strengths": [
+        "Codebase-wide context",
+        "Natural language interaction",
+        "Multi-file operations",
+        "Advanced AI models",
+        "Privacy focused"
+      ],
+      "supported_languages": [
+        "Python", "JavaScript", "TypeScript", "Java", "C++", "Go", "Rust", "HTML", "CSS", "React", "Vue"
+      ],
+      "use_cases": [
+        "Large codebases",
+        "Complex refactoring",
+        "Architecture planning",
+        "Code understanding"
+      ],
+      "system_prompt": "I'm Cursor AI, specialized in understanding and working with entire codebases. I can help you navigate, modify, and understand complex projects with multi-file context awareness.",
+      "ideal_for": ["experienced_developers", "large_projects", "refactoring"],
+      "collaboration": true,
+      "deployment": false,
+      "learning_curve": "medium",
+      "price_tier": "freemium"
+    },
+    {
+      "id": "replit",
+      "name": "Replit AI",
+      "description": "Cloud-based development platform with AI assistance",
+      "capabilities": [
+        "Code generation",
+        "Project creation",
+        "Debugging",
+        "Deployment",
+        "Collaboration",
+        "Package management"
+      ],
+      "strengths": [
+        "Zero setup required",
+        "Real-time collaboration",
+        "Instant deployment",
+        "Built-in AI chat",
+        "Educational features"
+      ],
+      "supported_languages": [
+        "Python", "JavaScript", "HTML", "CSS", "Java", "C++", "Go", "Rust", "PHP", "Ruby", "Node.js"
+      ],
+      "use_cases": [
+        "Prototyping",
+        "Learning",
+        "Collaboration",
+        "Quick projects",
+        "Education"
+      ],
+      "system_prompt": "I'm Replit AI, your cloud-based coding companion. I specialize in rapid prototyping, collaborative development, and helping you get projects running quickly without setup hassles.",
+      "ideal_for": ["beginners", "students", "prototyping", "collaboration"],
+      "collaboration": true,
+      "deployment": true,
+      "learning_curve": "low",
+      "price_tier": "freemium"
+    },
+    {
+      "id": "aws_codewhisperer",
+      "name": "AWS CodeWhisperer",
+      "description": "Machine learning powered code generator optimized for AWS",
+      "capabilities": [
+        "Code suggestions",
+        "Security scanning",
+        "AWS service integration",
+        "Documentation generation",
+        "Best practices enforcement"
+      ],
+      "strengths": [
+        "AWS integration",
+        "Security focus",
+        "Enterprise features",
+        "Compliance support",
+        "Cost optimization"
+      ],
+      "supported_languages": [
+        "Python", "Java", "JavaScript", "TypeScript", "C#", "Go", "Rust", "PHP", "Ruby", "Kotlin", "Scala"
+      ],
+      "use_cases": [
+        "AWS development",
+        "Cloud applications",
+        "Enterprise projects",
+        "Security-critical code"
+      ],
+      "system_prompt": "I'm AWS CodeWhisperer, specialized in cloud development and AWS services. I prioritize security, best practices, and seamless integration with AWS ecosystem.",
+      "ideal_for": ["cloud_developers", "enterprise", "aws_focused"],
+      "collaboration": false,
+      "deployment": true,
+      "learning_curve": "medium",
+      "price_tier": "freemium"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "description": "AI code completion tool with privacy focus",
+      "capabilities": [
+        "Code completion",
+        "Whole-line suggestions",
+        "Natural language to code",
+        "Custom model training",
+        "Team learning"
+      ],
+      "strengths": [
+        "Privacy focused",
+        "Custom models",
+        "Fast completions",
+        "Offline capability",
+        "Team adaptation"
+      ],
+      "supported_languages": [
+        "Python", "JavaScript", "Java", "C++", "C#", "PHP", "Go", "Rust", "TypeScript", "Ruby", "Kotlin"
+      ],
+      "use_cases": [
+        "Enterprise development",
+        "Privacy-sensitive projects",
+        "Team coding standards",
+        "Custom workflows"
+      ],
+      "system_prompt": "I'm Tabnine, your privacy-first AI coding assistant. I adapt to your team's coding patterns while keeping your code secure and private.",
+      "ideal_for": ["enterprise", "privacy_focused", "team_development"],
+      "collaboration": true,
+      "deployment": false,
+      "learning_curve": "low",
+      "price_tier": "freemium"
+    },
+    {
+      "id": "codeium",
+      "name": "Codeium",
+      "description": "Free AI-powered code completion and chat",
+      "capabilities": [
+        "Code completion",
+        "AI chat",
+        "Code explanation",
+        "Bug fixing",
+        "Code translation",
+        "Documentation generation"
+      ],
+      "strengths": [
+        "Completely free",
+        "Fast suggestions",
+        "Multi-IDE support",
+        "No usage limits",
+        "Active development"
+      ],
+      "supported_languages": [
+        "Python", "JavaScript", "TypeScript", "Java", "C++", "Go", "Rust", "PHP", "Ruby", "Swift", "Kotlin"
+      ],
+      "use_cases": [
+        "Budget-conscious development",
+        "Learning programming",
+        "Open source projects",
+        "Personal projects"
+      ],
+      "system_prompt": "I'm Codeium, your free AI coding companion. I provide unlimited code completions and assistance without any cost barriers.",
+      "ideal_for": ["beginners", "students", "budget_conscious", "open_source"],
+      "collaboration": false,
+      "deployment": false,
+      "learning_curve": "low",
+      "price_tier": "free"
+    },
+    {
+      "id": "sourcegraph_cody",
+      "name": "Sourcegraph Cody",
+      "description": "AI coding assistant with deep codebase understanding",
+      "capabilities": [
+        "Codebase search",
+        "Code explanation",
+        "Bug detection",
+        "Code generation",
+        "Documentation writing",
+        "Code review assistance"
+      ],
+      "strengths": [
+        "Deep codebase analysis",
+        "Code search integration",
+        "Enterprise features",
+        "Multiple AI models",
+        "Context awareness"
+      ],
+      "supported_languages": [
+        "Python", "JavaScript", "TypeScript", "Java", "Go", "C++", "C#", "Ruby", "PHP", "Rust"
+      ],
+      "use_cases": [
+        "Large codebases",
+        "Code exploration",
+        "Legacy code understanding",
+        "Enterprise development"
+      ],
+      "system_prompt": "I'm Sourcegraph Cody, specialized in understanding and navigating large codebases. I can help you explore, understand, and work with complex software projects.",
+      "ideal_for": ["enterprise", "large_codebases", "code_exploration"],
+      "collaboration": true,
+      "deployment": false,
+      "learning_curve": "medium",
+      "price_tier": "freemium"
+    }
+  ]
+} 
